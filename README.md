@@ -1,12 +1,10 @@
-<div align="center">
-    <img src="images/logo.PNG" alt="Logo" width="250" height="200"><br>
-    # Utaxi UT AP
-</div>
+# Utaxi UT AP
 This is a web based c++ taxi reservation program with users as passengers and drivers.
 <br>
 The project has been developed based on APHTTP web server that you can find [here](https://github.com/UTAP/APHTTP) in c++ for an assignment in AP course in University of Tehran.
+<br>
 <div align="center">
-    <img src="images/utaxi.PNG" alt="Utaxi" width="250" height="200">
+    <img src="images/utaxi.PNG" alt="Utaxi" width="900" height="500">
 </div>
 
 # Table of Contents
