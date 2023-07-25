@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Get_Trips_List</title>
+</head>
+<body>
+    <div class="nav-bar">
+        <ul class="nav-bar-list">
+            <li class="brand-tag"><span class="brand-tag-span">U</span>Taxi</li>
+            <li><a style="text-decoration: none;" href="/">Home</a></li>
+            <li><a style="text-decoration: none;"href="/CancelTrip">Cancel Trip</a></li>
+            <li><a style="text-decoration: none;"href="/TaxiReq">Get A Taxi</a></li>
+            <li><a style="text-decoration: none;" href="/Submit" class="signup-tag">Signup</a></li>
+        </ul>
+    </div>
+    <div class="container">
+    <form action="/GetTripsList" method="post">
+        <label for="username">UserName : </label>
+        <br>
+        <input type="text" name="username" id="username">
+        <br>
+        <br>
+        <button type="submit">Get-List</button>
+    </form>
+</div>
+</body>
+</html>
